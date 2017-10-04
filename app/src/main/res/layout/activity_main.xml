@@ -8,20 +8,24 @@
     tools:context="com.example.maider.pamplona_negra.MainActivity">
 
 
+    <LinearLayout
+        android:layout_width="929dp"
+        android:layout_height="110dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="626dp"
+            android:layout_height="165dp"
+            android:layout_marginTop="0dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sangre"
+            tools:layout_editor_absoluteX="0dp" />
+    </LinearLayout>
 
 
 
-
-
-<!--
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="626dp"
-        android:layout_height="165dp"
-        android:layout_marginTop="0dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/sangre"
-        tools:layout_editor_absoluteX="0dp" /> -->
     <Button
         android:id="@+id/btnJugar"
         android:layout_width="300dp"
@@ -34,17 +38,7 @@
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:id="@+id/txtSaludo"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/btnJugar"
-        android:layout_centerVertical="true"
-        android:text="Hola. Los escritores de novela negra de Navarra te desafían. Bienvenido al reto"
-        android:textAlignment="center"
-        android:textColor="@android:color/background_light"
-        android:textSize="30sp" />
+        android:layout_centerHorizontal="true"
+        />
 
 </RelativeLayout>
