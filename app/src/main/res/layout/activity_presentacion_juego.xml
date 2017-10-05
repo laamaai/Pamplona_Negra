@@ -11,7 +11,8 @@
         android:layout_width="929dp"
         android:layout_height="110dp"
         android:orientation="horizontal"
-        android:weightSum="1">
+        android:weightSum="1"
+        android:id="@+id/linearLayout">
 
         <ImageView
             android:id="@+id/imageView"
@@ -27,13 +28,15 @@
         android:id="@+id/txtPresentacion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
         android:background="@drawable/degradado"
         android:text="Hola. \n Los escritores de novela negra de Navarra te desafían. \n \n Bienvenido al reto."
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="30sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="97dp" />
 
 
 </RelativeLayout>
