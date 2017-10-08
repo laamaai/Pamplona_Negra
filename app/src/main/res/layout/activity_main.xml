@@ -11,7 +11,8 @@
         android:layout_width="929dp"
         android:layout_height="110dp"
         android:orientation="horizontal"
-        android:weightSum="1">
+        android:weightSum="1"
+        android:id="@+id/linearLayout2">
 
         <ImageView
             android:id="@+id/imageView"
@@ -37,5 +38,17 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         />
+
+    <TextView
+        android:id="@+id/txtV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnJugar"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_marginTop="102dp"
+        android:text="PAMPLONA NEGRA"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
