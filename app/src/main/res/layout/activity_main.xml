@@ -43,12 +43,15 @@
         android:id="@+id/txtV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/btnJugar"
-        android:layout_below="@+id/linearLayout2"
-        android:layout_marginTop="102dp"
         android:text="PAMPLONA NEGRA"
-        android:textColor="@android:color/background_light"
+        android:textAlignment="center"
+        android:textColor="#2CD13F"
         android:textSize="36sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp" />
+
+
 
 </RelativeLayout>
