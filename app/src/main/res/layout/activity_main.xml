@@ -43,7 +43,7 @@
         android:id="@+id/txtV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="PAMPLONA NEGRA"
+        android:text="HOLIIIII"
         android:textAlignment="center"
         android:textColor="#2CD13F"
         android:textSize="36sp"
